@@ -128,6 +128,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DBSCAN Clustring Master.cpp" />
+    <ClCompile Include="pbPlots.cpp" />
+    <ClCompile Include="supportLib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSV.h" />
+    <ClInclude Include="DBScan.h" />
+    <ClInclude Include="DBScanExample.h" />
+    <ClInclude Include="Distance.h" />
+    <ClInclude Include="pbPlots.hpp" />
+    <ClInclude Include="Plot.h" />
+    <ClInclude Include="ReadCSV.h" />
+    <ClInclude Include="Silhouette.h" />
+    <ClInclude Include="supportLib.hpp" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,10 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Resources">
+      <UniqueIdentifier>{ce1fdd49-2829-4066-86f0-a3f0ab866df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms">
+      <UniqueIdentifier>{7a88e8e9-d1e7-41cb-949c-9a440d5840d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Examples">
+      <UniqueIdentifier>{21ddf9ea-cf6a-44a1-b612-73f7f6fd7820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{4331e220-94c3-4aaa-8d0f-9fb3764fd4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pbplots">
+      <UniqueIdentifier>{eef34d89-aa78-40f6-bfc8-98de3c4c0e74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DBSCAN Clustring Master.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pbPlots.cpp">
+      <Filter>Header Files\Pbplots</Filter>
+    </ClCompile>
+    <ClCompile Include="supportLib.cpp">
+      <Filter>Header Files\Pbplots</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pbPlots.hpp">
+      <Filter>Header Files\Pbplots</Filter>
+    </ClInclude>
+    <ClInclude Include="supportLib.hpp">
+      <Filter>Header Files\Pbplots</Filter>
+    </ClInclude>
+    <ClInclude Include="CSV.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Plot.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DBScanExample.h">
+      <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="DBScan.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Silhouette.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadCSV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
